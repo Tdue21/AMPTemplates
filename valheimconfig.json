@@ -59,6 +59,25 @@
     "DefaultValue": ""
   },
   {
+    "DisplayName": "Presets",
+    "Description": "",
+    "FieldName": "presetModifier",
+    "Category": "Valheim - World Modifiers",
+    "ParamFieldName": "presetModifier",
+    "IncludeInCommandLine": false,
+    "InputType": "enum",
+    "EnumValues": {
+      "": "Normal",
+      "-preset casual": "Very Easy",
+      "-preset easy": "Easy",
+      "-preset hard": "Hard",
+      "-preset hardcore": "Hardcore",
+      "-preset immersive": "Immersive",
+      "-preset hammer": "Hammer"
+    },
+    "DefaultValue": ""
+  },
+  {
     "DisplayName": "Combat",
     "Description": "Governs how much damage you give and take. Also governs how likely you are to encounter higher leveled enemies, and how dangerous they are.",
     "FieldName": "combatModifier",
